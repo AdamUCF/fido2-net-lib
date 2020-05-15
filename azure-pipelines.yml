@@ -65,5 +65,5 @@ jobs:
     displayName: Run unit tests
     inputs:
       command: test
-      arguments: --nodereuse:false
+      arguments: -nodeReuse:false
       projects: '**/Test.csproj'
